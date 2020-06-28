@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+} 
+
 .heading{
     text-transform: uppercase;
     font-size: 80px;
@@ -102,16 +106,8 @@
     padding: 100px 0;
 }
 
-.work .heading-area ul{
-    overflow: hidden;
-    margin-left: 12%;
-    margin-bottom: 40px;
-}
-
-.work .heading-area ul li {
-    list-style-type: none;
-    float: left;
-    margin: 0 22px;
+.work .heading-area ul .active {
+    border-bottom: 2px solid #818baa;
 }
 
 .work .heading-area ul li a {
@@ -221,32 +217,11 @@
 /* SUB-FOOTER section */
 
 .sub-footer {
-    background: url(image/background.png);
-    background-repeat: no-repeat;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    text-align: center;
-    color: #7c7c7c;
-}
-
-.sub-footer ul li {
-    list-style-type: none;
-    float: left;
-    display: inline-block;
-    margin-right: 30px;
-    font-size: 35px;
+    background: url('image/background.png');
+    padding: 100px 0;
 }
 
 .sub-footer ul li a {
     color: #dbdbdb;
-}
-
-.sub-footer .icon-area {
-    width: 33%;
-    margin: auto;
-    margin-bottom: 80px;
-}
-
-.sub-footer .copyright p {
-    font-size: 18px;
+    font-size: 32px;
 }

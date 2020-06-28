@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PSD to html</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@
         <h1 class="heading heading-white">i love design</h1>
         <p class="subheading">I'm glad that you visited my site where he can get to know me and my work.</p>
 
-        <a href="#about" class="scroll-down">
+        <a href="#scroll" class="scroll-down">
            <svg class="bi bi-chevron-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
         </a>
@@ -33,7 +33,7 @@
     
     <!-- ABOUT Section -->
    
-   <div class="about" id="about">
+   <div class="about">
        <div class="container">
            <div class="info text-center">
                <p>My name is Vlad Musienko, I'm a web designer. I love to draw and all that is connected with the design. In this area a long time ago and during this time I managed to create several successful projects used by people all over the world. </p>
@@ -75,16 +75,16 @@
    <!-- WORK Section -->
    
    
-   <div class="work">
+   <div class="work" id="scroll">
       <div class="container">
           <div class="heading-area">
                <h2 class="heading heading-white">MY WORK</h2>
-               <ul>
-                   <li><a href="#">All Works</a></li>
-                   <li><a href="#">Landing Page</a></li>
-                   <li><a href="#">Web Design</a></li>
-                   <li><a href="#">Icon Design</a></li>
-                   <li><a href="#">Template</a></li>
+               <ul class="nav justify-content-center">
+                   <li><a class="active" href="#">All Works</a></li>
+                   <li class="nav-item ml-5 mb-4"><a href="#">Landing Page</a></li>
+                   <li class="nav-item ml-5 mb-4"><a href="#">Web Design</a></li>
+                   <li class="nav-item ml-5 mb-4"><a href="#">Icon Design</a></li>
+                   <li class="nav-item ml-5 mb-4"><a href="#">Template</a></li>
                </ul>
            </div>
            <div class="row">
@@ -204,14 +204,14 @@
    
    <!-- SUB-FOOTER Section -->
    
-   <div class="sub-footer">
+   <div class="sub-footer text-center">
       <div class="container">
-          <div class="row icon-area">
-              <ul>
-                <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
-                <li><a href="#"> <i class="fas fa-basketball-ball"></i> </a></li>
-                <li><a href="#"> <i class="fab fa-behance"></i> </a></li>
-                <li><a href="#"> <i class="fab fa-instagram"></i> </a></li>
+          <div class="icon-area mb-5">
+              <ul class="nav justify-content-center">
+                <li class="mr-4"><a href="#"> <i class="fab fa-twitter"></i> </a></li>
+                <li class="mr-4"><a href="#"> <i class="fas fa-basketball-ball"></i> </a></li>
+                <li class="mr-4"><a href="#"> <i class="fab fa-behance"></i> </a></li>
+                <li class="mr-0"><a href="#"> <i class="fab fa-instagram"></i> </a></li>
               </ul>
           </div>
           <div class="copyright">
